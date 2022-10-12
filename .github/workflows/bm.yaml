@@ -7,11 +7,14 @@ jobs:
   bm:
     runs-on: ubuntu-latest
     steps:
-      - run: git diff
+      - name: Count changes
+        id: count
+        run: |
+          echo "::set-output name=changes::$(git show --oneline | wc -m | xargs)"
       - name: Post to Beeminder
         run: |
-          curl -X POST https://www.beeminder.com/api/v1/users/${{ secrets.BEEMINDER_USERNAME }}/goals/merge/datapoints.json \
+          curl -X POST https://www.beeminder.com/api/v1/users/${{ secrets.BEEMINDER_USERNAME }}/goals/tr-theory/datapoints.json \
             -d auth_token=${{ secrets.BEEMINDER_AUTH_TOKEN }} \
             -d requestid=${{ github.sha }} \
-            -d value=1 \
+            -d value=${{ steps.count.changes }} \
             -d comment="${{ github.event.head_commit.message }} (${{ github.repository }}:${{ github.sha }})"
