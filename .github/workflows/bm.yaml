@@ -12,7 +12,7 @@ jobs:
           fetch-depth: 2
       - name: Count changes
         run: |
-          git show --oneline
+          git show --pretty=""
           echo "COUNT=$(git show --pretty="" | wc -m | xargs)" >> $GITHUB_ENV
       - name: Post to Beeminder
         run: |
