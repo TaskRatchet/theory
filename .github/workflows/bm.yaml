@@ -7,6 +7,7 @@ jobs:
   bm:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Count changes
         id: count
         run: |
