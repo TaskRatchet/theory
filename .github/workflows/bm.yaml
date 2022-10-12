@@ -7,10 +7,10 @@ jobs:
   bm:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Count changes
         run: |
-          echo "COUNT=$(git show --oneline | wc -m | xargs)"
+          echo "COUNT=$(git show --oneline | wc -m | xargs)" >> $GITHUB_ENV
       - name: Post to Beeminder
         run: |
           curl -X POST https://www.beeminder.com/api/v1/users/${{ secrets.BEEMINDER_USERNAME }}/goals/tr-theory/datapoints.json \
