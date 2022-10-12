@@ -9,13 +9,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Count changes
-        id: count
         run: |
-          echo "::set-output name=changes::$(git show --oneline | wc -m | xargs)"
+          echo "COUNT=$(git show --oneline | wc -m | xargs)"
       - name: Post to Beeminder
         run: |
           curl -X POST https://www.beeminder.com/api/v1/users/${{ secrets.BEEMINDER_USERNAME }}/goals/tr-theory/datapoints.json \
             -d auth_token=${{ secrets.BEEMINDER_AUTH_TOKEN }} \
             -d requestid=${{ github.sha }} \
-            -d value=${{ steps.count.changes }} \
+            -d value=${{ env.COUNT }} \
             -d comment="${{ github.event.head_commit.message }} (${{ github.repository }}:${{ github.sha }})"
