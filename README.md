@@ -13,3 +13,7 @@
 ## Data Upgrades
 
 - I need to have a way to do cohort analysis.
+- Split testing
+- User interviews
+- Lost user surveys
+- Tracking prodcut-market fit
