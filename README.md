@@ -17,3 +17,14 @@
 - User interviews
 - Lost user surveys
 - Tracking prodcut-market fit
+
+## Engine of Growth
+
+The engine of growth I'm attempting to use is the sticky engine. Key metrics for this engine, according to [The Lean Startup][1], are:
+
+- Churn rates
+- Usage frequency
+- Consumer rention rate
+- Acquisition rate
+
+[1]: https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898
