@@ -12,7 +12,7 @@
 
 ## Data Upgrades
 
-- I need to have a way to do cohort analysis.
+- [Cohort analysis](./cohort-analysis.md)
 - Split testing
 - User interviews
 - Lost user surveys
