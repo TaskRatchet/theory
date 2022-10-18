@@ -29,4 +29,4 @@ That is, how many new users create their first task in the first month they sign
 | 2022-08 | 15        | 10                            | 67% |
 | 2022-09 | 19        | 17                            | 89% |
 
-These numbers seem very strong. I'm guessing there are other numbers that would be more important to push.
+These numbers seem very strong. I'm guessing there are other numbers that would be more important to push. Of course, I could instantly increase this number to 100% by making it a part of the registration process.
