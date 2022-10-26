@@ -32,5 +32,8 @@ The engine of growth I'm attempting to use is the sticky engine. Key metrics for
 - How many users never create a task?
 - What's my churn rate?
 - What are my most effective acquisition channels?
+- Why do users stop using TaskRatchet?
+- What use cases do users use TaskRatchet to solve?
+- What changes to TaskRatchet would create the most value for users?
 
 [1]: https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898
