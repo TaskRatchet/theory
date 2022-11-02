@@ -37,7 +37,7 @@ Formula: `UNIQUES(B)/(UNIQUES(A) - UNIQUES(B))`
 | 2022-09-01T00:00:00 | 20        | 46           | 0.77             |
 | 2022-10-01T00:00:00 | 21        | 56           | 0.6              |
 
-This acquisition rate is based on the current month's active users. This seems like it's not telling the whole story.
+This acquisition rate is based on the current month's active users. This won't be the whole story until I compare it with our churn rate.
 
 ## Questions
 
