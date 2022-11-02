@@ -1,5 +1,20 @@
 # Theory
 
+```mermaid
+flowchart LR
+    acquisition --> taskratchet --> churn
+    taskratchet --> new_task --> taskratchet
+    new_task --> email --> taskratchet
+    beeminder --> acquisition
+    beeminder --> taskratchet
+    new_task --> beeminder
+```
+
+## Index
+
+- [Cohort Analysis](cohort-analysis.md)
+- [Engine of Growth](engine-of-growth.md)
+
 ## Risks
 
 - The addressable market is too small to fully support myself financially.
@@ -18,19 +33,8 @@
 - Lost user surveys
 - Tracking prodcut-market fit
 
-## Engine of Growth
-
-The engine of growth I'm attempting to use is the sticky engine. Key metrics for this engine, according to [The Lean Startup][1], are:
-
-- Churn rates
-- Usage frequency
-- Consumer rention rate
-- Acquisition rate
-
 ## Questions
 
 - How many users never create a task?
-- What's my churn rate?
-- What are my most effective acquisition channels?
 
 [1]: https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898
