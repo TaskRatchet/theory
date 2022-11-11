@@ -34,3 +34,4 @@
 - HotJar
 - [Typeform](https://www.typeform.com/)
 - Mailgun
+- Amplitude
