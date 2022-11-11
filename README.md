@@ -14,6 +14,7 @@ flowchart LR
 
 - [Cohort Analysis](cohort-analysis.md)
 - [Engine of Growth](engine-of-growth.md)
+- [Gathering Feedback](gathering-feedback.md)
 
 ## Risks
 
@@ -25,20 +26,10 @@ flowchart LR
 - I can build a product that provides value to users.
 - The addressable market is enough to support myself financially. To make $1,500 / month, I'd need 3000 new tasks to be created per month on average. This is 100 tasks per day.
 
-## Gathering Feedback
-
-- Twitter polls
-- Beeminder forum posts
-- Emails
-- On-site polls
-- User interviews
-
-## Data Upgrades
+## Data Analysis Upgrades
 
 - [Cohort analysis](./cohort-analysis.md)
 - Split testing
-- User interviews
-- Lost user surveys
 - Tracking prodcut-market fit
 
 ## Questions
