@@ -26,3 +26,11 @@
 - How easy is it to use TaskRatchet?
 - What is the biggest problem you have with TaskRatchet?
 - What was the hardest part of learning how to use TaskRatchet?
+
+## Potential Tools
+
+- Highlight.io
+- MUI
+- HotJar
+- [Typeform](https://www.typeform.com/)
+- Mailgun
