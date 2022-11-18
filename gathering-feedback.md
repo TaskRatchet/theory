@@ -29,10 +29,11 @@
 
 ## Potential Tools
 
-- Highlight.io
-- MUI
-- HotJar
+- [Highlight](https://www.highlight.io/])
+- [MUI](https://mui.com/)
+- [HotJar](https://www.hotjar.com/)
 - [Typeform](https://www.typeform.com/)
-- Mailgun
-- Amplitude
-- Google Forms
+- [Mailgun](https://www.mailgun.com/)
+- [Amplitude](https://www.amplitude.com/)
+- [Google Forms](https://www.google.com/forms/about/)
+- [SurveyMonkey](https://www.surveymonkey.com/)
