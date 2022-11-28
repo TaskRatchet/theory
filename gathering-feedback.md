@@ -37,8 +37,19 @@
 - [Amplitude](https://www.amplitude.com/)
 - [Google Forms](https://www.google.com/forms/about/)
 - [SurveyMonkey](https://www.surveymonkey.com/)
+- [Zod JS + plugin](https://zod.dev/?id=form-integrations) to generate (?) React forms
 
-I should also check out the tools recommended by [awesome-serverless][3].
+I should also check out the tools recommended by [awesome-serverless][3]. Some interesting options:
+
+- [airform](https://airform.io/) - Free and unlimited. Sends responses to an email address.
+- [formcake](https://formcake.com/)
+- [formcarry](https://formcarry.com/) - No free plan.
+- [Formspark](https://formspark.io/)
+- [Formspree](https://formspree.io/)
+- [FormKeep](https://formkeep.com/)
+- [formplug](https://github.com/danielireson/formplug)
+- [getform](https://getform.io/)
+- [pageclip](https://pageclip.co/)
 
 ### SurveyMonkey
 
