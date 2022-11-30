@@ -15,6 +15,7 @@ flowchart LR
 - [Cohort Analysis](cohort-analysis.md)
 - [Engine of Growth](engine-of-growth.md)
 - [Gathering Feedback](gathering-feedback.md)
+- [Prioritizing Tasks](prioritizing-tasks.md)
 
 ## Risks
 
