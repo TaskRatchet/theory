@@ -45,7 +45,7 @@ I should also check out the tools recommended by [awesome-serverless][3]. Some i
 - [formcake](https://formcake.com/)
 - [formcarry](https://formcarry.com/) - No free plan.
 - [Formspark](https://formspark.io/)
-- [Formspree](https://formspree.io/)
+- [Formspree](https://formspree.io/) - Free, limited to 50 submissions / month.
 - [FormKeep](https://formkeep.com/)
 - [formplug](https://github.com/danielireson/formplug)
 - [getform](https://getform.io/)
