@@ -48,7 +48,7 @@ I should also check out the tools recommended by [awesome-serverless][3]. Some i
 - [Formspree](https://formspree.io/) - Free, limited to 50 submissions / month.
 - [FormKeep](https://formkeep.com/)
 - [formplug](https://github.com/danielireson/formplug)
-- [getform](https://getform.io/)
+- [getform](https://getform.io/) - Free for 1 endpoint, up to 50 submissions / month.
 - [pageclip](https://pageclip.co/)
 
 ### SurveyMonkey
